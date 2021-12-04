@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple Interest Calculator</string>
+    <string name="text1">Currency : </string>
+    <string name="butext1">Choose</string>
+    <string name="text2">Initial Amount : </string>
+    <string name="text2hint">Enter Amount</string>
+    <string name="text3">Interest Rate : </string>
+    <string name="text4">Time : </string>
+    <string name="text4hint">Years</string>
+    <string name="text4hint2">Months</string>
+    <string name="checktext">Show Interest at different intervals</string>
+
+    <string name="butext2">Calculate</string>
+    <string name="credit_text"><u>Imitated from The Calculator Site</u></string>
+
+</resources>

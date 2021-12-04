@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">साधारण ब्याज गणक</string>
+    <string name="text1">मुद्रा : </string>
+    <string name="butext1">चुनें</string>
+    <string name="text2">मूल धन : </string>
+    <string name="text2hint">राशी डालें</string>
+    <string name="text3">ब्याज : </string>
+    <string name="text4">समय : </string>
+    <string name="text4hint">वर्ष</string>
+    <string name="text4hint2">महीने</string>
+    <string name="checktext">अलग-अलग अंतराल पर ब्याज दिखाएं</string>
+
+    <string name="butext2">गणना करें</string>
+    <string name="credit_text"><u>श्रेय : The Calculator Site</u></string>
+</resources>

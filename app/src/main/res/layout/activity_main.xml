@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    tools:context=".CalculatorMain">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="10sp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/text1"
+           android:textSize="19sp"
+           android:textColor="#FFFFFF"
+           android:layout_marginTop="10sp"
+           android:id="@+id/currText"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/currText"
+           android:layout_marginLeft="30sp"
+           android:backgroundTint="#FBF3E4"
+           android:textColor="#1F1D36"
+           android:textAllCaps="false"
+           android:text="@string/butext1"
+           android:id="@+id/currChoose"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/currText"
+           android:text="@string/text2"
+           android:textSize="19sp"
+           android:textColor="#FFFFFF"
+           android:layout_marginTop="25sp"
+           android:id="@+id/prinText"/>
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/prinText"
+           android:hint="@string/text2hint"
+           android:background="@color/cardview_light_background"
+           android:padding="5sp"
+           android:paddingStart="20sp"
+           android:paddingEnd="20sp"
+           android:textAlignment="center"
+           android:textColor="#000000"
+           android:layout_marginLeft="20sp"
+           android:layout_marginTop="55sp"
+           android:id="@+id/Principal"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/prinText"
+           android:text="@string/text3"
+           android:textSize="19sp"
+           android:textColor="#FFFFFF"
+           android:layout_marginTop="25sp"
+           android:id="@+id/interText"/>
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/interText"
+           android:hint="%"
+           android:background="@color/cardview_light_background"
+           android:padding="5sp"
+           android:paddingStart="15sp"
+           android:paddingEnd="15sp"
+           android:textAlignment="center"
+           android:textColor="#000000"
+           android:layout_marginLeft="20sp"
+           android:layout_marginTop="105sp"
+           android:id="@+id/Rate"/>
+
+       <Spinner
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/Rate"
+           android:layout_marginTop="105sp"
+           android:layout_marginLeft="20sp"
+           android:paddingStart="7sp"
+           android:paddingTop="7sp"
+           android:paddingEnd="7sp"
+           android:paddingBottom="7sp"
+           android:id="@+id/Ratedurat" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Rate"
+           android:text="@string/text4"
+           android:textSize="19sp"
+           android:textColor="#FFFFFF"
+           android:layout_marginTop="25sp"
+           android:id="@+id/timeText"/>
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/timeText"
+           android:hint="@string/text4hint"
+           android:background="@color/cardview_light_background"
+           android:padding="5sp"
+           android:paddingStart="15sp"
+           android:paddingEnd="15sp"
+           android:textAlignment="center"
+           android:textColor="#000000"
+           android:layout_marginLeft="20sp"
+           android:layout_marginTop="160sp"
+           android:id="@+id/yearInput"/>
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/yearInput"
+           android:hint="@string/text4hint2"
+           android:background="@color/cardview_light_background"
+           android:padding="5sp"
+           android:paddingStart="15sp"
+           android:paddingEnd="15sp"
+           android:textAlignment="center"
+           android:textColor="#000000"
+           android:layout_marginLeft="20sp"
+           android:layout_marginTop="160sp"
+           android:id="@+id/monInput"/>
+
+       <CheckBox
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/timeText"
+           android:layout_marginTop="25sp"
+           android:textSize="17sp"
+           android:textColor="#FFFFFF"
+           android:text="@string/checktext"
+           android:id="@+id/interCheck"/>
+
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="20sp"
+           android:layout_below="@+id/interCheck"
+           android:orientation="horizontal"
+           android:id="@+id/intervalSelect">
+
+       </RadioGroup>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/intervalSelect"
+           android:layout_centerHorizontal="true"
+           android:backgroundTint="#FBF3E4"
+           android:textColor="#1F1D36"
+           android:layout_marginTop="25sp"
+           android:textAllCaps="false"
+           android:text="@string/butext2"
+           android:id="@+id/calculateBut"/>
+
+   </RelativeLayout>
+
+
+</ScrollView>
